@@ -2,8 +2,17 @@
     font-family: copperplate;
 }
 
+.about p, .contact p, .services p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
 body{
     background-color: #f1fbff;
+}
+
+.about img{
+    transform: scaleX(-1);
 }
 
 .section-padding{
@@ -100,8 +109,8 @@ body{
     font-size: 40px;
 }
 
-.card .bi:hover{
-    color: #ffc007;
+#services .card .bi:hover{
+    color: white;
     transition: font-size 330ms ease-in-out;
     font-size: 60px;
 }
@@ -110,6 +119,10 @@ body{
     color: #ffc007;
     transition: font-size 330ms ease-in-out;
     font-size: 30px;
+}
+
+.services .card .bi{
+    color: #ffc007;
 }
 
 #contact a{
@@ -129,10 +142,10 @@ iframe{
     transition: transform 450ms ease-in-out;
 }
 
-.about-img img:hover{
-    transform: scale(1.1);
+/* .about-img img:hover{
+    transform: scale(1);
     transition: transform 450ms ease-in-out;
-}
+} */
 
 .carousel-caption h5:hover{
     color: #ffc007;
