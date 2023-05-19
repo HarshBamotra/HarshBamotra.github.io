@@ -11,10 +11,6 @@ body{
     background-color: #f1fbff;
 }
 
-.about img{
-    transform: scaleX(-1);
-}
-
 .section-padding{
     padding: 100px 0;
 }
@@ -142,10 +138,10 @@ iframe{
     transition: transform 450ms ease-in-out;
 }
 
-/* .about-img img:hover{
+.about-img img:hover{
     transform: scale(1);
     transition: transform 450ms ease-in-out;
-} */
+}
 
 .carousel-caption h5:hover{
     color: #ffc007;
@@ -201,5 +197,9 @@ iframe{
 
     .card{
         margin-bottom: 30px;
+    }
+
+    #carouselExampleCaptions img{
+        object-fit: cover;
     }
 }
