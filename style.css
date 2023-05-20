@@ -1,10 +1,5 @@
 *{
-    font-family: copperplate;
-}
-
-.about p, .contact p, .services p{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
