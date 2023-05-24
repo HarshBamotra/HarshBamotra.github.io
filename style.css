@@ -161,6 +161,10 @@ iframe{
     .img-area img{
         width: 100%;
     }
+
+    #space{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -196,5 +200,15 @@ iframe{
 
     #carouselExampleCaptions img{
         object-fit: cover;
+    }
+
+    #space{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 991px){
+    #space2{
+        display: none;
     }
 }
